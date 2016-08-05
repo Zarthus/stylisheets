@@ -1,0 +1,11 @@
+/* urls starting with match: https://mail.google.com */
+
+/* Hides certain labels */
+/* In my specific usecase, I label emails
+ * that can be safely deleted, but I don't 
+ * want the label to show up in the UI. */
+div[title="deletable/safe"],
+div[title="deletable/attachment"],
+div[title="deletable"] {
+    display: none;
+}

@@ -1,0 +1,6 @@
+/* regexp match: https?:\/\/(?:www\.)?youtu(?:\.be|be\.com).* */
+
+/* Hides "Play From Smart TV" button in player */
+button[title="Play on TV"] {
+    display: none !important;
+}
